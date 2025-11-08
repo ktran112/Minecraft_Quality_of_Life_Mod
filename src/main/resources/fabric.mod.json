@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "qolmods",
+	"version": "${version}",
+	"name": "QoLMods",
+	"description": "Adds many quality of life changes. Made for HTTPHacks.",
+	"authors": [
+		"Kiet"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/ktran112/hackathon.git"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/qolmods/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"hackathon.qolmods.qolMods"
+		],
+		"fabric-datagen": [
+			"hackathon.qolmods.QoLModsDataGenerator"
+		],
+      "client": [
+        "hackathon.qolmods.hackathonQoLClient"
+      ]
+	},
+	"mixins": [
+		"qolmods.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}1
