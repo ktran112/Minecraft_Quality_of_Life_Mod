@@ -13,7 +13,7 @@ FEATURES
 --------------------------------------------------
 
 - Auto replaces tools when they break, with replacements from inventory, ignoring moving tools already in the hotbar, also autoswitches based on type of block broken with proper tool (breaking a piece of dirt with a shovel/axe/pickaxe will replace the broken tool with a shovel)
-- Allows sorting items in inventory while ignoring items in players' hotbar
+- Allows sorting items and merging stacks of items in inventory while ignoring items in players' hotbar
 - Shows the coordinates of players and their biomes
 - Shows a numeric representation of armor health points in the HUD
 - Shows a mob health bar when looking at them
