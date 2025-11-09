@@ -39,6 +39,7 @@ Steps:
    `git clone https://github.com/ktran112/Minecraft_Quality_of_Life_Mod`
 2. `cd` into the root of the repo
 3. Run `./gradlew runClient` to start Minecraft with our mod
+4. Start a world in survival
 
 --------------------------------------------------
 FUTURE IMPROVEMENTS
