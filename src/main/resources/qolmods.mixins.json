@@ -3,7 +3,8 @@
 	"package": "hackathon.qolmods.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"ExampleMixin",
+        "InventoryScreenMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
